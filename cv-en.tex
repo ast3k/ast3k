@@ -1,0 +1,69 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.5cm, bottom=1.5cm, left=3cm, right=5.1cm]{geometry}
+\pagenumbering{gobble}
+\usepackage{graphicx}
+\usepackage[pdftex, colorlinks, urlcolor=blue, pdfauthor={Hugo Sastre}]{hyperref}
+
+
+\title{\href{mailto:hugo@astrek.net}{{hugo sastre}},1975}
+\date{}
+
+\newcommand{\myfootnote}[1]{
+    \renewcommand{\thefootnote}{}
+    \footnotetext{\scriptsize#1}
+    \renewcommand{\thefootnote}{\arabic{footnote}}
+}
+
+\begin{document}
+{\fontfamily{lmtt}\selectfont
+	\maketitle
+	\href{mailto:hugo@astrek.tk}{\includegraphics[height=3cm]{myimg.jpg}}
+	\section*{\fontfamily{lmtt}\selectfont work}
+		\href{https://astrek.net}{{\Large astrek}} ({\Large sysadmin}, 2020-{\the\year}),
+		\href{http://laplandsafaris.com}{{\large lapland safaris}} ({\Large coordinator} + {\Large IT} + {\Large guide}, 2009-2022),
+		\href{https://trivore.com}{{\Large trivore}} ({\Large sysadmin}, 2014-2015),
+		\href{http://dmgon.fi}{data media gazelle} ({\Large coder}, 2012),
+		\href{https://www.infoempresa.com/en-in/es/company/caspor-medioambiental-sl}{caspor medioambiental} (forest tech, 2010),
+		\href{https://sandosund.com/en/}{{\large sandösunds}} ({\large guide}, 2009-2011),
+		\href{https://www.nokia.com/en_int}{{\Large nokia}} (electronic tech, 2008),
+		\href{https://www.facebook.com/oxigeno88}{{\large oxigeno}} ({\Large webmaster}, 2007-2008),
+		\href{https://www.endesa.com/en/}{endesa} ({\Large energy tech}, 2006-2007),
+		\href{http://gruasroxu.com}{{\large roxu}} (administrative + crane operator, 2001-2005),
+		\href{http://www.alcecalidad.com}{{\large alce}} ({\Large lab tech}, 1996-2001)
+	
+	\section*{\fontfamily{lmtt}\selectfont education}
+		\href{https://mycv.astrek.net/edu-20160321.it_engineer_en.jpg}{\Large information technology engineer}, 
+		\href{https://mycv.astrek.net/edu-20130513.ccna4.jpg}{\Large CCNA4E},
+		\href{https://mycv.astrek.net/edu-20121212.ccna3.jpg}{\Large CCNA3E},
+		\href{https://mycv.astrek.net/edu-20100320.ccna2.jpg}{CCNA2},
+		\href{https://mycv.astrek.net/edu-20100130.ccna1.jpg}{CCNA1},
+		\href{https://mycv.astrek.net/edu-20100131.it_essentials.jpg}{PC hardware and software}, 
+		\href{https://mycv.astrek.net/edu-20070430.lightwave.jpg}{lightwave},
+		\href{https://mycv.astrek.net/edu-20060616.sysadmin.jpg}{\Large net admin}, 
+		\href{https://mycv.astrek.net/edu-20060602.webadmin.jpg}{\Large sysadmin},
+		\href{https://mycv.astrek.net/edu-20051220.webmaster.jpg}{web design},
+		\href{https://mycv.astrek.net/edu-20051024.ecoenergy.jpg}{\large renewable energy}, 
+		\href{https://mycv.astrek.net/edu-20050520.eco_guide.jpg}{environmental education},
+		\href{https://mycv.astrek.net/edu-19970725.tssa_en.jpg}{\Large high technician in environment}
+			
+	\section*{\fontfamily{lmtt}\selectfont skills}
+		{\large english}, 
+		\href{https://mycv.astrek.net/skill-20210524.yki.jpg}{finnish}, 
+		{\Large spanish},
+		{\Large UNIX},
+		{\large ImageMagick},
+		{\large {\normalfont \LaTeX{}}}, 
+		CSS, HTTPD, JavaScript, XHTML, {\large django},
+		MySQL, {\large PostreSQL}, LiteSQL,
+		{\large CISCO}, CARP,
+		C, Java, {\large  PHP}, {\large Python}, sh, 
+		\href{https://mycv.astrek.net/skill-20210526.drivin.jpg}{driving license (c)},
+		first aid,
+		\href{https://mycv.astrek.net/skill-20210324.occupational_safety.jpg}{occupational safety card}
+}
+
+\myfootnote{* items "in blue" are clickable references.}
+\myfootnote{* font weight is about "knowledge/experience/interest".}
+
+\end{document}
